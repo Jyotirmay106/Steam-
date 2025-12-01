@@ -23,3 +23,13 @@ a{
     color: #66C0F4;
 }
 
+.main-nav-list li:hover{
+    color: #66C0F4;
+    transition: all 0.3s ease-in-out;
+}
+
+.help:hover, .view:hover, .minimize i:hover, .crop i:hover, .cross i:hover, .nav-social button:hover i {
+    cursor: pointer;
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+}
